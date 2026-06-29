@@ -11,6 +11,7 @@ export const personalInfo = {
   tagline: "Building high-performance mobile apps and enterprise backend integrations that power real-world financial systems",
   aboutSummary: "Software Engineer with 5+ years of experience specializing in Android development and enterprise backend integrations. Strong foundation in Kotlin and Flutter for mobile, and C#/.NET and Java Spring Boot for backend. Built Host-to-Host banking integrations (Ecobank, FBC Bank) and SAP REST API layers at Delta Corporation Zimbabwe. Passionate about bridging mobile experiences with robust backend systems.",
   location: "Harare, Zimbabwe (Open to Remote - US/EMEA/APAC)",
+  phone: "+263 776 815 030",
   email: "simbastart.dev@gmail.com",
   github: "https://github.com/simbastart001",
   linkedin: "https://linkedin.com/in/simba-start-07a37a173",

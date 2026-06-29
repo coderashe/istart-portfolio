@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import { useState, useEffect } from "react";
 import { Menu, X, ArrowUp, Terminal, Code2 } from "lucide-react";
 import Hero from "./components/Hero";
@@ -175,7 +170,7 @@ export default function App() {
       </main>
 
       {/* 3. PREMIUM COMPRESSED SINGLE-FILE EXPORTER COMPONENT */}
-      <ExportSingleFile />
+        {/*  <ExportSingleFile /> */}
 
       {/* 4. SCROLL TO TOP FLOATING BUTTON */}
       {showScrollTop && (

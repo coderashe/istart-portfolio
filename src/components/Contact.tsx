@@ -5,7 +5,7 @@
 
 import React, { useState } from "react";
 import { motion } from "motion/react";
-import { Mail, Github, Linkedin, Send, MessageSquare, CheckCircle, ExternalLink, Sparkles } from "lucide-react";
+import { Mail, Github, Linkedin, Send, MessageSquare, CheckCircle, ExternalLink, Sparkles, Phone } from "lucide-react";
 import { personalInfo } from "../data/portfolioData";
 
 export default function Contact() {
@@ -77,6 +77,21 @@ export default function Contact() {
                 <div className="overflow-hidden">
                   <p className="text-[10px] font-mono text-slate-500 uppercase tracking-wider">Direct Email</p>
                   <p className="text-sm font-sans font-semibold text-white truncate">{personalInfo.email}</p>
+                </div>
+                <ExternalLink size={12} className="ml-auto text-slate-600 group-hover:text-electric-cyan transition-colors" />
+              </a>
+
+              {/* Phone Link */}
+              <a
+                href={`tel:${personalInfo.phone}`}
+                className="flex items-center gap-4 p-4 rounded-xl glass-card hover:border-electric-cyan/40 hover:scale-101 transition-all duration-300 group cursor-pointer"
+              >
+                <div className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-electric-cyan group-hover:text-white group-hover:bg-electric-cyan transition-all duration-300">
+                  <Phone size={18} />
+                </div>
+                <div className="overflow-hidden">
+                  <p className="text-[10px] font-mono text-slate-500 uppercase tracking-wider">Phone / WhatsApp</p>
+                  <p className="text-sm font-sans font-semibold text-white truncate">{personalInfo.phone}</p>
                 </div>
                 <ExternalLink size={12} className="ml-auto text-slate-600 group-hover:text-electric-cyan transition-colors" />
               </a>
