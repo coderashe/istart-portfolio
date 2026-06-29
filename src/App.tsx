@@ -58,8 +58,8 @@ export default function App() {
             className="font-mono text-sm font-bold text-white tracking-wider flex items-center gap-1.5 group cursor-pointer hover:text-electric-cyan transition-all"
           >
             <span className="text-electric-cyan group-hover:-translate-x-1 transition-transform">&lt;</span>
-            iStart
-            <span className="text-white opacity-40 font-light">/ portfolio</span>
+            +263
+            <span className="text-white opacity-40 font-light"> 776815030</span>
             <span className="text-electric-cyan group-hover:translate-x-1 transition-transform">/&gt;</span>
           </button>
 
